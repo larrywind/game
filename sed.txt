@@ -1,0 +1,5 @@
+sed '1~2d' file #删除奇数行
+sed '1~2!d' file #删除偶数行
+
+sed -i '/^$/d' file 删除空行
+sed -i '/^\s*$/d' file 删除空行
